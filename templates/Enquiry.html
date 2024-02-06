@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENQUIRY</title>
+    <link rel = "icon" href = "media/logo.png"
+        type = "image/x-icon">
+    <link rel="stylesheet" href="css/Enquiry.css">
+    <style>body{
+        background-color: #4A55A2;
+    }
+    
+    /*form */
+    form{
+        width: 50vw;
+        height: auto;
+        padding: 2%;
+        border: 2px solid #35A29F;
+        position: absolute;
+        left: 25%;
+        top: 20%;
+        text-align: center;
+        box-shadow: 0px 0px 50px black;
+    }
+    
+    .forlable{
+        text-align: left; 
+        /*position: absolute;*/
+        margin-left: 35%;
+        margin-top: 5%;
+        color: white;
+        font-size: 20px;
+    
+        width: 10%;
+    }
+    
+    input,select{
+        background-color: white;
+        border: none;
+        padding: 0.5%;
+        width: 30%;
+    
+    }
+    
+    input[type=submit]{
+        cursor: pointer;
+        font-weight: bold;
+        color: rgb(95, 141, 182);
+        border-radius: 40px;
+        width: 15%;
+    }</style>
+</head>
+<body>
+    <form><center><h1 style="color: whitesmoke;">ENQUIRY</h1></center>
+        <div class="forlable"> 
+            <label>Name: </label>
+        </div>
+        <div class="forinput">
+            <input type="text" name="uname"/>
+        </div>
+        <div class="forlable"> 
+            <label>Email: </label>
+        </div>
+        <div class="forinput">
+            <input type="email" name="uemail"/>
+        </div>
+        <div class="forlable"> 
+            <label>Contact: </label>
+        </div>
+        <div class="forinput">
+            <input type="text" name="uname"/>
+        </div>
+        <div class="forlable"> 
+            <label>course: </label>
+        </div>
+        <div class="forinput">
+            <select >
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>PYTHON</option>
+                <option>JAVA</option>
+                <option>FULLSTACK</option>
+                <option>FRONT-END</option>
+                <option>BACK_END</option>
+                <option>CLOUD COMPUTING</option>
+                <option>DEVOPS</option>
+                <option>CYBERSECURITY</option>
+            </select>
+        </div><br><br>
+        <input type="submit"/>
+        <!-- <input type="submit" id="#home"/> -->
+
+        
+    </form>
+</body>
+</html>
